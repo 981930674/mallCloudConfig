@@ -1,13 +1,6 @@
 
 server:
   port: 9000  
-      
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
-  instance:
-    prefer-ip-address: true
     
 #这一段可以上传githook作为 热加载配置    
 zuul:
