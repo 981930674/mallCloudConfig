@@ -30,6 +30,8 @@ management:
 #暴露路由
         include: routes
         
+env: 
+  1mall-cloud-api-gateway-dev
 #spring:
 #  rabbitmq:
 #    host: 192.168.99.100
