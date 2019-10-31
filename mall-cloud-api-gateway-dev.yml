@@ -1,4 +1,3 @@
-
 server:
   port: 9000  
     
@@ -22,18 +21,19 @@ zuul:
     #或者
     #- /**/xxx
 
-
 management:
   endpoints:
     web:
       exposure:
 #暴露路由
         include: routes
-        
-env: 1mall-cloud-api-gateway-dev
-#spring:
-#  rabbitmq:
-#    host: 192.168.99.100
-#    port: 5672
-#    username: user
-#    password: password    
+
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: user
+    password: password
+   
+env: 
+  1mall-cloud-api-gateway-dev
