@@ -30,5 +30,9 @@ management:
 #暴露路由
         include: routes
         
-
-     
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: user
+    password: password     
