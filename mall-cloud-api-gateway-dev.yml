@@ -36,4 +36,4 @@ spring:
     password: password
    
 env: 
-  31mall-cloud-api-gateway-dev
+  32mall-cloud-api-gateway-dev
